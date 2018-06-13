@@ -24,10 +24,13 @@
   },
   "homepage": "https://github.com/iraviteja/node-authentication-app#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
     "express": "^4.16.3",
+    "express-flash": "0.0.2",
     "express-handlebars": "^3.0.0",
-    "express-router": "0.0.1",
+    "express-session": "^1.15.6",
     "hbs": "^4.0.1",
     "mongoose": "^5.1.5",
     "morgan": "^1.9.0"
