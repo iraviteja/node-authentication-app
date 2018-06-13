@@ -14,6 +14,10 @@ app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+const mainRoutes = require("./routes/main");
+
+app.use("/", mainRoutes);
+
 const port = process.env.PORT || 3000;
 app.listen(port, err => {
   if (err) throw err;
